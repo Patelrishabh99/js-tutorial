@@ -6,3 +6,5 @@ let accountCity ;
 
 accountState = "Bihar"
 console.table([accountId , accountName , accountState , accountCity])
+
+console.log(typeof accountState);
