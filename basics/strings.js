@@ -13,8 +13,15 @@ const game = new String('gvpcdpgc')
 
 // use to remove the white space characters
 let firstString = "         Mahesh      .     ";
-console.log(firstString)
-console.log(firstString.trim());
+// console.log(firstString)
+// console.log(firstString.trim());
+
+
+const ID = "https//github.com//rishabhpatel//%20cse"
+console.log(ID.replace('%20','-'));
+// this two above line tells about the replacing of string
+
+
 
 
 
